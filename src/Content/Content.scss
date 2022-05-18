@@ -1,0 +1,47 @@
+.content {
+    margin: 45px 200px 0px 200px;
+    display: flex;
+    margin-top: 65px;
+    flex-direction: column;
+
+    .latest-posts {
+        display: flex;
+        flex-direction: row;
+        font-size: small;
+        .see-all-posts {
+            color: gray;
+            font-size: small;
+        }
+    }
+    
+    .content-header {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+        margin-bottom: 25px;
+
+        .content-count {
+            font-size: x-large;
+            min-width: 45px;
+        }
+        .content-title {
+            font-size: x-large;
+        }
+    }
+
+    .content-body {
+        font-size: medium;
+        margin-left: 45px;
+        margin-bottom: 15px;
+        line-height: 25px;
+        text-indent: 25px;
+    }
+}
+
+// change to override defaults
+.static-content-body {
+    font-size: medium;
+    margin-bottom: 15px;
+    line-height: 25px;
+    text-indent: 25px;
+}

@@ -1,0 +1,40 @@
+.header-main {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+
+  .left-header {
+    display: flex;
+    flex-grow: 1;
+    font-size: xx-large;
+    flex-direction: row;
+    .logo {
+      height: 45px;
+      width: 45px;
+    }
+    .title {
+      font-size: xx-large;
+      margin-left: 15px;
+    }
+  }
+
+  .right-header {
+    margin-right: 45px;
+    display: flex;
+    flex-grow: 2;
+    .link-item {
+      flex-grow: 1;
+      font-size: medium;
+      text-align: center;
+      line-height: 35px;
+      text-decoration: none;
+      color: aquamarine;
+    }
+    .link-item:hover {
+      background-color: rgba(66, 110, 116, 0.171);
+      transition: all 0.4s ease;
+    }
+  }
+}
