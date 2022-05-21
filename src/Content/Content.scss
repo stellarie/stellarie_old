@@ -4,9 +4,11 @@
     margin-top: 65px;
     flex-direction: column;
     background-color: rgba(0,0,0,0.50);
+    //background-color: rgba(256,256,256,0.50);
     border-radius: 10px;
 
     .latest-posts {
+        margin: 25px 25px 0 25px;
         display: flex;
         flex-direction: row;
         font-size: small;
@@ -19,7 +21,7 @@
     .content-header {
         display: flex;
         flex-direction: row;
-        margin-top: 25px;
+        margin: 25px 25px 0 25px;
         padding-bottom: 10px;
         border-bottom: 1px solid gray;
 

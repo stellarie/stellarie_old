@@ -17,9 +17,6 @@ const Content = () => {
             return (
               <>
                 <div className="content-header">
-                  <div className="content-count">
-                    {staticContent.length - i}
-                  </div>
                   <div className="content-title">{c.header}</div>
                 </div>
                 <div className="content-body">
