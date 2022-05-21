@@ -3,9 +3,10 @@
   position: fixed;
   top: 0px;
   min-width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.15);
 
   .left-header {
+    margin-left: 30px;
     display: flex;
     flex-grow: 1;
     font-size: xx-large;

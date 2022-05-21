@@ -1,0 +1,48 @@
+.socials {
+    margin: 45px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128,128,128,0.50);
+    border-radius: 10px;
+    
+    .socials-title {
+        color: black;
+        margin-top: 25px;
+        padding-left: 25px;
+        padding-bottom: 25px;
+        font-size: x-large;
+        line-height: 25px;
+        border-bottom: 1px solid black;
+    }
+
+    .socials-content {
+        margin: 10px 0;
+
+        .socials-wrapper {
+            display: flex;
+            flex-direction: row;
+            font-size: large;
+            vertical-align: middle;
+            line-height: 35px;
+            text-decoration: none;
+            color: black;
+            .socials-link {
+                .socials-icon {
+                    padding: 0 15px;
+                    margin-top: 5px;
+                    width:  35px;
+                    height: 35px;
+                }
+            }
+    
+            .socials-account {
+                padding: 5px 0;
+            }
+        }
+        
+    }
+    .socials-wrapper:hover {
+        background-color: rgba(66, 110, 116, 0.171);
+        transition: all 0.4s ease;
+    }
+}

@@ -9,9 +9,9 @@ const Header = () => {
                 <div className="title">stellarie</div>
             </div>
             <div className="right-header">
-                <a className="link-item" href="#under-construction">To-do</a>
-                <a className="link-item" href="#under-construction">Projects</a>
-                <a className="link-item" href="#under-construction">Misc Links</a>
+                <a className="link-item" href="#under-construction" target="_blank" rel="noreferrer noopener">To-do</a>
+                <a className="link-item" href="#under-construction" target="_blank" rel="noreferrer noopener">Projects</a>
+                <a className="link-item" href="#under-construction" target="_blank" rel="noreferrer noopener">Misc Links</a>
             </div>
         </div>
     )

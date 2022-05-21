@@ -1,0 +1,14 @@
+.app-main {
+    .app-content-area {
+        display: flex;
+        margin: 25px 220px;
+
+        .content-left {
+            min-width: 65%;
+        }
+
+        .content-right {
+            min-width: 35%;
+        }
+    }
+}

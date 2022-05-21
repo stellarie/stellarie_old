@@ -22,7 +22,9 @@ const Content = () => {
                   </div>
                   <div className="content-title">{c.header}</div>
                 </div>
-                <div className="content-body">{c.body}</div>
+                <div className="content-body">
+                  {(c.body)}
+                </div>
               </>
             );
           }
